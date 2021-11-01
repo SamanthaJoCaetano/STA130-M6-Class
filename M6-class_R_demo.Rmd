@@ -5,6 +5,8 @@ output:
   html_notebook: default
 ---
 
+In this session we will be coding & polling. I recommend having [pollev.com/sta](pollev.com/sta) open in a tab or saved for tthe first bit of this session.
+
 Prof Caetano has a friend who is expecting a baby in February. In this demo, we'll explore the NCbirths data to investigate how big we should expect her friend's baby to be!
 
 
@@ -22,7 +24,7 @@ glimpse(NCbirths)
 
 # R Demo
 
-## Q1 - What do we know about these data? (and where can we find out?)
+## Q1 - What do we know about these data? (and where can we find out?). Go to [pollev.com/sta](pollev.com/sta) to tick what you've learned about this data.
 
 ###(a) When we load data from a package, where do we go to (hopefully) get more information about the data?
 ```{r}
@@ -52,7 +54,7 @@ glimpse(NCbirths)
 
 ```
 
-
+Go to [pollev.com/sta](pollev.com/sta) to help us describe this visualization.
 
 
 ## Q4 - Prof Caetano's friend is currently 34 weeks pregnant, so she is particularly interested in learning about the association between the duration of pregnancy and birthweight for babies born at 34 weeks or later (babies born before this time are quite premature and so their birthweight is not be as relevant).  Let's create a new tibble containing only observations for babies born in this range.
@@ -71,6 +73,10 @@ In this part, we'll explore the association between the duration of a pregnancy 
 ```{r}
 
 ```
+
+Go to [pollev.com/sta](pollev.com/sta) to show us your answer.
+
+
 
 ## QA4 - Fit a linear regression model to predict the weight of a baby based on the duration of the pregnancy (in weeks), to find the least-squares estimates for the regression parameters. Create a visualization to visualize the association between weeks and birthweight for babies born at or after 34 weeks, adding the fitted regression line to the plot.
 ```{r}
@@ -95,6 +101,8 @@ In this part, we'll explore the association between the duration of a pregnancy 
 ```{r}
 
 ```
+
+Go to [pollev.com/sta](pollev.com/sta) to show us your answer.
 
 
 
